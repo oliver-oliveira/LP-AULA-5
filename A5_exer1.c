@@ -14,8 +14,8 @@ int main () {
     printf("Digite tempo:");
     scanf("%f", &t);
     
-    float M = C * (1 + i * t);
-    printf("total: %f", C, i, t, M);
+    float M = C * (1 + i/100 * t);
+    printf("total: %f", M);
 
     return 0;
 }
