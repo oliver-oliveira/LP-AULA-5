@@ -2,16 +2,16 @@
 #include <math.h>
 
 int main () {
-  float n1,n2, potencia;
-  
+    float x, y, resultado;
+    
     printf("X: ");
-    scanf("%f", &n1);
+    scanf("%f", &x);
     
     printf("Y: ");
-    scanf("%f", &n2);
+    scanf("%f", &y);
     
-    potencia = pow(X^Y);
-    printf("Potencia de %.2f = %.2f", x, n2, potencia);
-
+    resultado = pow(x, y);
+    printf("Resultado: %.1f\n", resultado);
+    
     return 0;
 }
